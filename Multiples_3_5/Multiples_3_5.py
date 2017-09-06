@@ -6,7 +6,7 @@
 #Date: 7/6/2017
 
 #Program Header
-print 'This program will sum all multiples of 3 and 5 below a number you specify'
+print 'This program will sum all multiples of 3 and 5,up to but not including, a number you specify'
 #USER PROMPT INPUT
 x          =int(raw_input('Give me a number: '))
 

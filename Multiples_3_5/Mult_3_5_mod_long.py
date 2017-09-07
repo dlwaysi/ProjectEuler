@@ -3,7 +3,7 @@
 #Task: Calculate the sum of all of the multiples of 3 and 5 below 1000
 #Author: Daniel Lwaysi
 #Note: This is my first solution
-#Date: 7/6/2017
+#Date: 9/6/2017
 
 #Program Header
 print 'This program will sum all multiples of 3 and 5,up to but not including, a number you specify'

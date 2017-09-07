@@ -1,8 +1,3 @@
-
-
-
-
-
 #Project Euler
 #Problem # 1
 #Task: Calculate the sum of all of the multiples of 3 and 5 below 1000

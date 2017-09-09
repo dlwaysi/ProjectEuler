@@ -5,7 +5,7 @@
 #Note: This is the first function definition based on my first solution
 #Date: 9/7/2017
 
-def M35001(n):
+def one(n):
 
 	threes     = []
 	fives      = []

@@ -2,9 +2,10 @@
 #FUNCTION # 1
 #Task: Calculate the sum of all of the multiples of 3 and 5 below 1000
 #Author: Daniel Lwaysi
-#Note: This is the first function definition based on my first solution
-#Date: 9/7/2017
+#Date: 9/8/2017
 
+
+#Note: This is the first function definition based on my first solution
 def one(n):
 
 	threes     = []
@@ -55,7 +56,11 @@ def one(n):
 
 	return;
 
-
+def two(n):
 	
-	
+	sum = 0
 
+	for i in range(n):
+		if( i%3 == 0 or i%5 == 0):
+			sum += i
+	print "THE SUM OF ALL MULTIPLES OF 3 & 5, UP TO",n,", = ", sum,"\n"

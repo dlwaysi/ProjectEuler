@@ -1,6 +1,7 @@
 #Project Euler
 #FUNCTION # 1
-#Task: Calculate the sum of all of the multiples of 3 and 5 below 1000
+#Task: Calculate the sum of all of the multiples of 3 and 5 below 1000(n)
+#NOTE: This Python module provides three different solutions for the task above
 #Author: Daniel Lwaysi
 #Date: 9/8/2017
 
@@ -64,3 +65,9 @@ def two(n):
 		if( i%3 == 0 or i%5 == 0):
 			sum += i
 	print "THE SUM OF ALL MULTIPLES OF 3 & 5, UP TO",n,", = ", sum,"\n"
+
+def three(n):
+
+#The range for the Generator Expression goes to (n - 1), or 999 in this case
+	print "THE SUM OF ALL THE MULTIPLES OF 3 AND 5, UP TO", n,", = "
+	print(sum(n for n in range(1000) if n%3 == 0 or n%5 == 0))

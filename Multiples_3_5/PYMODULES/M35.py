@@ -71,3 +71,13 @@ def three(n):
 #The range for the Generator Expression goes to (n - 1), or 999 in this case
 	print "THE SUM OF ALL THE MULTIPLES OF 3 AND 5, UP TO", n,", = "
 	print(sum(n for n in range(1000) if n%3 == 0 or n%5 == 0))
+
+def four(n):
+	multiples = (3,5,15)
+
+	nterms    = [(n-1)//c for c in multiples]
+	m35sums   = [d*c*(1+d)/2 for d,c in zip(nterms, multiples)]
+
+	tsum      = m35sums[0] + m35sums[1] - m35sums[2]
+
+	print "THE SUM OF ALL THE MULTIPLES OF 3 & 5, UP TO",n,", = ",tsum

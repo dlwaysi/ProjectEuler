@@ -14,4 +14,4 @@ m35sums   = [d*c*(1+d)/2 for d,c in zip(nterms, multiples)]
 tsum      = m35sums[0] + m35sums[1] - m35sums[2]
 
 print(tsum)
-
+	

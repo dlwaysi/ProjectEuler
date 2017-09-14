@@ -10,15 +10,18 @@ import M35
 
 
 def main(argv):
-	print "First Solution"
+	print "FIRST SOLUTION:"
 	M35.one(1000)
-	print "Second Solution"
+	print "SECOND SOLUTION:"
 	M35.two(1000)
-	print "Third Solution"
+	print "THIRD SOLUTION:"
 	M35.three(1000)
+	print "FOURTH SOLUTION:"
+	M35.four(1000)
 	pass
 
 
+#STATEMENT TO DIRECT SCRIPT TO main() FUNCTION
 if __name__ == "__main__":
 	main(sys.argv)
 

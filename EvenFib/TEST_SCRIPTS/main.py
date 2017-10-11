@@ -10,7 +10,7 @@ import EF
 
 
 def main(argv):
-	print "FIRST SOLUTION:"
+	print "FIRST SOLUTION:NAIVE RECURSSIVE"
 	EF.one()
 	print "SECOND SOLUTION:"
 	EF.two()

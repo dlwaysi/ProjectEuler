@@ -1,0 +1,20 @@
+#PROJECT EULER
+#AUTHOR: DANIEL LWAYSI
+#TASK: WHAT IS THE LARGEST PRIME FACTOR OF THE NUMBER 600851475143
+#DATE: 10/8/2017
+
+
+
+def factors(n):
+	wheel = [1,2,2,4,2,4,2,4,6,2,6]
+	w,f,fs = 0,2,[]
+	while f*f <= n:
+		while n % f ==0:
+			fs.append(f)
+			n /= f
+		f,w = f + wheel[w], w+1
+		if w == 11: w = 3
+	if n > 1: fs.append(n)
+	return fs
+
+factors(100)
